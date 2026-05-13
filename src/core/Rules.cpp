@@ -1,5 +1,5 @@
-#include "core/Rules.hpp"
-#include "core/Search.hpp"
+#include "Rules.hpp"
+#include "Search.hpp"
 
 #include <algorithm>
 

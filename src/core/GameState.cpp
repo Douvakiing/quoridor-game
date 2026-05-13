@@ -1,4 +1,4 @@
-#include "core/GameState.hpp"
+#include "GameState.hpp"
 
 namespace quoridor {
 

@@ -1,4 +1,4 @@
-#include "core/Board.hpp"
+#include "Board.hpp"
 
 namespace quoridor {
 

@@ -1,4 +1,4 @@
-#include "core/GameController.hpp"
+#include "GameController.hpp"
 #include "ai/GreedyAI.hpp"
 
 namespace quoridor {

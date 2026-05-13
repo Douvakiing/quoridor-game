@@ -1,4 +1,4 @@
-#include "core/Search.hpp"
+#include "Search.hpp"
 
 #include <algorithm>
 #include <cmath>

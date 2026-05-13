@@ -1,11 +1,8 @@
-#include "mainwindow.h"
+#include "gui/GuiApp.hpp"
 
-#include <QApplication>
-
-int main(int argc, char *argv[])
+int main()
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    return QCoreApplication::exec();
+    quoridor::GuiApp app;
+    app.run();
+    return 0;
 }
