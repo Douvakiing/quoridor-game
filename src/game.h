@@ -32,14 +32,14 @@ private:
     // Turn tracking (e.g., 1 for P1, 2 for P2)
     int current_turn;
     bool BFS_search();
-    bool isWallbetween(Position from, Position to);
+    bool isWallbetween(Position from, Position to); // check if there Exist a wall in the way of player (used in move player)
 
 public:
     // Methods you'll need to implement Phase 1 & 3:
     bool is_valid_pawn_move(Player p, Position target);
-    bool is_valid_wall_placement(bool is_horizontal, int r, int c);
+    bool is_valid_wall_placement(bool is_horizontal, int r, int c); 
     void movePlayer(Player &player,Position pos);
-    void placeWall(Position pos, bool isHorizontal);
+    void placeWall(Position pos, bool isHorizontal); 
 
 };
 
